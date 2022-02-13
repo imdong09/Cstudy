@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+    int a, b, c, i, z, d;
+    scanf("%d", &c);
+    for(i=1; i<=c; i++){
+    	scanf("%d", &a);
+    	scanf("%d", &b);
+    	d=0;
+    	for(z=1; z<=a; z++){
+    		d=d+z;
+		}
+		if(d==b) printf("YES\n");
+		else printf("NO\n");
+	}
+	return 0;
+}
